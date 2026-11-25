@@ -1,0 +1,8 @@
+[package]
+name = "media-transport"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+media-common = { path = "../media-common" }
+tokio.workspace = true

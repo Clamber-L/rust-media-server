@@ -1,0 +1,9 @@
+[package]
+name = "gb28181"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+media-common = { path = "../media-common" }
+sip-core = { path = "../sip-core" }
+tokio.workspace = true

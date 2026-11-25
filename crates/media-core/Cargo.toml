@@ -1,0 +1,10 @@
+[package]
+name = "media-core"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+media-common = { path = "../media-common" }
+media-protocol = { path = "../media-protocol" }
+media-transport = { path = "../media-transport" }
+tokio.workspace = true

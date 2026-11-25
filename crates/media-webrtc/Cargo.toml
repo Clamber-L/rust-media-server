@@ -1,0 +1,9 @@
+[package]
+name = "media-webrtc"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+media-common = { path = "../media-common" }
+media-core = { path = "../media-core" }
+tokio.workspace = true

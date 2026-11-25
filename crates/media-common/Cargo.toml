@@ -1,0 +1,10 @@
+[package]
+name = "media-common"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+tokio.workspace = true
+serde.workspace = true
+anyhow.workspace = true
+thiserror.workspace = true

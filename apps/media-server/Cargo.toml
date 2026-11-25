@@ -1,0 +1,17 @@
+[package]
+name = "media-server"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+media-common = { path = "../../crates/media-common" }
+media-core = { path = "../../crates/media-core" }
+media-transport = { path = "../../crates/media-transport" }
+media-protocol = { path = "../../crates/media-protocol" }
+media-rtsp = { path = "../../crates/media-rtsp" }
+media-rtmp = { path = "../../crates/media-rtmp" }
+media-hls = { path = "../../crates/media-hls" }
+media-webrtc = { path = "../../crates/media-webrtc" }
+media-api = { path = "../../crates/media-api" }
+media-record = { path = "../../crates/media-record" }
+tokio.workspace = true

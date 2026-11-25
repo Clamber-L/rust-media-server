@@ -1,0 +1,10 @@
+[package]
+name = "sip-server"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+media-common = { path = "../../crates/media-common" }
+sip-core = { path = "../../crates/sip-core" }
+gb28181 = { path = "../../crates/gb28181" }
+tokio.workspace = true

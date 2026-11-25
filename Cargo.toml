@@ -1,0 +1,29 @@
+[workspace]
+resolver = "2"
+
+members = [
+    "crates/media-common",
+    "crates/sip-core",
+    "crates/gb28181",
+    "crates/media-transport",
+    "crates/media-protocol",
+    "crates/media-core",
+    "crates/media-rtsp",
+    "crates/media-rtmp",
+    "crates/media-hls",
+    "crates/media-webrtc",
+    "crates/media-api",
+    "crates/media-record",
+    "apps/sip-server",
+    "apps/media-server",
+]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+
+[workspace.dependencies]
+tokio = { version = "1.40", features = ["full"] }
+serde = { version = "1.0", features = ["derive"] }
+anyhow = "1.0"
+thiserror = "1.0"

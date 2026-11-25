@@ -1,0 +1,7 @@
+[package]
+name = "media-protocol"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+media-common = { path = "../media-common" }
